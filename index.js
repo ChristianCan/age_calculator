@@ -1,4 +1,4 @@
-function getAge(YYYY, MM, DD) {
+export function getAge(YYYY, MM, DD) {
     var today = new Date();
     var birthDay = new Date(YYYY, MM , DD);
     var age = today.getFullYear() - birthDay.getFullYear();
@@ -9,5 +9,3 @@ function getAge(YYYY, MM, DD) {
     return age;
 }
 
-
-console.log(getAge(1997,11,06));
