@@ -1,0 +1,17 @@
+{
+  "name": "age_calculator",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "age",
+    "calculator",
+    "fun"
+  ],
+  "author": "christian",
+  "license": "ISC"
+}
